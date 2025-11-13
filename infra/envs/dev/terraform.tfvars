@@ -1,0 +1,17 @@
+#Networking
+vpc_name = "my-dev-vpc"
+
+vpc_cidr = "10.10.0.0/16"
+
+region = "us-east-1"
+
+public_subnets        = ["10.0.1.0/24", "10.0.2.0/24"]
+
+private_subnets       = ["10.0.3.0/24","10.0.4.0/24"]
+
+#DynamoDB
+#ECS
+#IAM
+#Organization
+organization_name = "my-dev-org"
+allowed_accounts = ["my-dev-account"]
